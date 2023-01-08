@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="css/style26.css">
+<link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">
+<style>
+    /*CSS reset*/
+    body{
+        font-family: 'Farsan', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    }
+    .left{
+        display: inline-block;
+        
+        position: absolute;
+        left: 0px;
+        top: 0px;
+
+
+        
+
+    }
+    
+    
+    .left img{
+        width: 123px;
+        color: yellow;
+    }
+    .left img:hover{
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+        color: rgb(239, 239, 231);
+        font-size: 30px;
+        cursor: pointer;
+
+    }
+    .left div:hover{
+        color: red;
+    }
+    .right{
+        display: inline-block;
+        
+        position: absolute;
+        right: 4px;
+        top: 20px;
+
+        
+
+    }
+    .mid{
+        display:block;
+        
+        margin: 30px auto;
+
+        width: 36%;
+        padding: 6px 25px;
+        
+
+    }
+    .navbar{
+        display: inline-block;
+        padding: 0px 20px;;
+
+    }
+
+    .navbar li{
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+        padding: 12px 10px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none ;
+        padding: 4px 3px;
+
+
+    }
+    .navbar li a:hover, .navbar li a:active{
+        color: red;
+        
+        text-decoration: underline;
+
+
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border-radius: 6px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Farsan', cursive;
+
+
+    }
+    .btn:hover{
+        background-color: white;
+        color: black;
+        text-decoration: underline;
+
+    }
+    .container {
+        border: 2px solid white;
+        margin: 87px 139px;
+        padding: 39px 94px;
+        width: 33%;
+        border-radius: 22px;
+    }
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 341px;
+        padding: 11px;
+        border: 2px solid black;
+        margin: 19px auto;
+        font-family: 'Farsan', cursive;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 30%;
+        margin: auto;
+    }
+</style>
+<body> 
+    <header class="header">
+        <div class="left">
+            <img src="/download.png" alt="">
+            <div id="123">Power House</div>
+            
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home  </a>
+
+                </li>
+                <li><a href="#" class="active">  About us  </a></li>
+                <li><a href="#" class="active">Fitness calculator </a></li>
+                <li><a href="#" class="active">contact us</a></li>
+            </ul>
+            
+
+        </div>
+        <div class="right">
+            <button class="btn"> Call us Now</button>
+            <button class="btn">Email us</button>
+
+        </div>
+        
+    </header>
+    
+    <div class="container">
+        <h1>Join the best gym of shirwal right now !!!</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" Name="" id="" placeholder="Enter your Name"> 
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
